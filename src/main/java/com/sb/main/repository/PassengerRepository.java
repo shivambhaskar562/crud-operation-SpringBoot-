@@ -3,8 +3,8 @@ package com.sb.main.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.sb.main.entity.Passinger;
+import com.sb.main.entity.Passenger;
 
 @Repository
-public interface PassingerRepository extends JpaRepository<Passinger, Integer>{
+public interface PassengerRepository extends JpaRepository<Passenger, Integer>{
 }
